@@ -60,6 +60,7 @@ $result = mysql_query("SELECT * FROM records ");
                     { "sWidth": "55%", "aTargets": [ 2 ] },
                     { "sWidth": "15%", "aTargets": [ 3 ] }
                 ],
+                "order": [[ 3, "desc" ]],
                 "autoWidth": true,
                 "sPaginationType":"full_numbers",
                 "aoColumns": [
